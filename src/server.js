@@ -26,7 +26,7 @@ const create = async () => {
     })
   );
 
-  app.get("/", (req, res) => res.send("Hello welcome"));
+  app.get("/", (req, res) => res.send("Hello"));
 
   app.use("/api/user", require("./routes/userRoute"));
 
